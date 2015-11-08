@@ -7,7 +7,7 @@ public class MessageUtil {
 	   public MessageUtil(String message){
 	      this.message = message;
 	   }
-	      
+	   // This will print message  
 	   // prints the message
 	   public String printMessage(){
 	      System.out.println(message);

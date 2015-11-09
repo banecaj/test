@@ -16,7 +16,8 @@ public class Matcher {
 		for (int i = 0; i < actual.length; i++)
             if (Math.abs(expected[i] - actual[i]) > delta)
                 return false;
-		return false;
+
+	    return true; // new one
 	}
 
 	private void clipValues(int[] actual, int clipLimit) {

@@ -17,7 +17,6 @@ public class Matcher {
             if (Math.abs(expected[i] - actual[i]) > delta)
                 return false;
 		
-		return true;
 	}
 
 	private void clipValues(int[] actual, int clipLimit) {
